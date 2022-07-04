@@ -26,9 +26,11 @@ h3 {
 p {
     font-size: 20px;
     padding: 10px;
+    text-align: justify;
+
 }
 
-section {
+.flexible_container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -66,4 +68,40 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.flexi_box {
+    width: 40%;
+    margin: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 50px gray;
+    text-align: justify;
+
+
+
+
+}
+
+#mlbb {
+    border-left: 10px solid blue;
+    border-radius: 10px;
+}
+
+#coc {
+    border-left: 10px solid red;
+    border-radius: 10px;
+
+}
+
+.experience {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+footer p {
+    text-align: center;
 }
