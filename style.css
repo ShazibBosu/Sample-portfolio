@@ -1,16 +1,17 @@
 body {
     font-family: 'Gentium Book Plus', serif;
     margin: 0;
+
 }
 
 h1 {
     font-size: 60px;
-    padding: 5px;
+    padding: 10px;
 }
 
 h2 {
     font-size: 40px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .violet {
@@ -19,16 +20,17 @@ h2 {
 
 h3 {
     font-size: 25px;
-    padding: 5px;
+    padding: 10px;
 }
 
 p {
     font-size: 20px;
-    padding: 5px;
+    padding: 10px;
 }
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .flexi {
@@ -50,10 +52,18 @@ section {
     font-style: oblique;
     padding: 10px 30px;
     border-radius: 5px;
+    margin: 10px;
 }
 
 .top_banner {
-    background-image: url(images/tp\ banner1.png);
+    background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
 
+
+}
+
+.Mydream {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
